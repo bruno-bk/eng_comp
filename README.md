@@ -25,13 +25,37 @@ O repositório é organizado em disciplinas, cada uma com um conjunto de aulas, 
     |   |   ex_03.c
     |   |   ex_04.c
 
+## Executando o código
+
+Para compilar e executar códigos em C, é necessário utilizar o compilador
+gcc. Para compilar o código, execute o seguinte comando:
+ 
+    gcc <path_do_codigo> -lm -o run ;and ./run
+
+*obs: o parametro *-lm* não é necessário em todos os codigos, apenas nos
+quais são usados a biblioteca math.h.*
+
+> Por exemplo, para compilar o código *programacao_estruturada/Aula_01/01.c*,
+> execute o seguinte comando:
+> 
+>     gcc programacao_estruturada/Aula_01/01.c -o run ;and ./run
+> 
+> Saida esperada:
+> 
+>     Digite um numero = 
+
+
+Caso você não tenha o clang-format instalado em seu computador, você pode instalá-lo facilmente através do gerenciador de pacotes apt, usando o comando:
+
+    sudo apt install gcc
+
 ## Formatação de código
 
 Para garantir a uniformidade e legibilidade do código, todos os arquivos adicionados a este repositório são formatados usando o clang-format, uma ferramenta de formatação de código que segue um conjunto de regras de estilo predefinidas.
 
 Para formatar um arquivo de código, basta utilizar o seguinte comando no terminal:
 
-    clang-format -i <path_for_file>
+    clang-format -i <path_do_arquivo>
 
 Caso você não tenha o clang-format instalado em seu computador, você pode instalá-lo facilmente através do gerenciador de pacotes apt, usando o comando:
 
