@@ -45,7 +45,8 @@ quais são usados a biblioteca math.h.*
 >     Digite um numero = 
 
 
-Caso você não tenha o clang-format instalado em seu computador, você pode instalá-lo facilmente através do gerenciador de pacotes apt, usando o comando:
+Caso você não tenha o gcc instalado em seu computador, você pode instalá-lo
+facilmente através do gerenciador de pacotes apt, usando o comando:
 
     sudo apt install gcc
 
