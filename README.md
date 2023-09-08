@@ -8,22 +8,21 @@ Todos os comandos apresentados abaixo usam o ambiente Ubuntu com o [Fish shell](
 
 ## Arquitetura do repositório
 
-O repositório é organizado em disciplinas, cada uma com um conjunto de aulas, e cada aula contém os exercícios propostos pelos professores. O formato de organização do repositório é como apresentado abaixo:
+O repositório está organizado por disciplinas, sendo que cada disciplina pode ter uma estrutura interna diferente. O formato de organização do repositório é o seguinte:
 
     Disciplina_01
     |   Aula_01
-    |   |   ex_01.c
-    |   |   ex_02.c
+    |   |   01.c
+    |   |   02.c
     |   Aula_02
-    |   |   ex_01.c
-    |   |   ex_02.c
-    |   |   ex_03.c
+    |   |   01.c
+    |   |   02.c
+    |   |   03.c
     Disciplina_02
-    |   Aula_01
-    |   |   ex_01.c
-    |   |   ex_02.c
-    |   |   ex_03.c
-    |   |   ex_04.c
+    |   codigo_x.c
+    Disciplina_03
+    |   ex01.c
+    |   ex02.c
 
 ## Executando o código
 
